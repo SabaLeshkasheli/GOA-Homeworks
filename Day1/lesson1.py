@@ -18,3 +18,7 @@ Knows_programming = True
 # print(type(Knows_programming))
 
 print(name + ' ' + str(age))
+
+
+
+print("me var" + " " + name + " " +surname + " " + "var" + " " + str(age) + " " + "wlis da" +" " + "simaghleshi var"+ " "+ str(height) + " "  + "santimetri " )

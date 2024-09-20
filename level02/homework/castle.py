@@ -76,13 +76,4 @@ forward(50)
 left(90)
 forward(50)
 
-# making it pretty
-
-penup()
-goto(278, 185)
-pendown()
-
-left(90)
-forward(278)
-
 exitonclick()

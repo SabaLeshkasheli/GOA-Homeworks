@@ -4,21 +4,16 @@
 num1 = int(input("Put a random number : "  ))
 num2 = int(input("a second random nubver : "  ))
 
-result = num1 + num2
+result1 = num1 + num2
+result2 = num1 * num2
+result3 = num1 - num2
+result4 = num1 / num2
 
-print(result, num1 , num2)
+print(result1)
+print(result2)
+print(result3)
+print(result4)
 
-result = num1 * num2
-
-print(result, num1, num2)
-
-result = num1 - num2
-
-print(result, num1, num2)
-
-result = num1 / num2
-
-print(result, num1 ,num2)
 
 
 #დავალება: კომენტარიბის სახით ახსენით თქვენი სიტყვებით, რა არის input, და output
@@ -38,5 +33,6 @@ print(result, num1 ,num2)
 #დავალება: მომხმარებელს შემოატანინეთ თავისი სახელი და გავარი, შემდეგ კი ტერმინალში გამოიტანეთ მომხმარებლის შემოტანილი მნიშვნელობები
 Name = input("Put your name here : " )
 Surname = input("Put your surname here : ")
+Fullname = Name + Surname
 
-print(Name + Surname)
+print(Fullname)
